@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import { Square } from './sides/square'
+import { Board } from './sides/Board'
 
 function App() {
 
   return (
     <>
-      <Square />
+      <Board />
     </>
   )
 }
